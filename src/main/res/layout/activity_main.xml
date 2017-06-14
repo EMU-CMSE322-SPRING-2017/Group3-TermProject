@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@android:color/background_dark"
+    tools:context="com.example.casper.userregistration.MainActivity"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/croppedlogo"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_below="@id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@android:color/background_light"
+            android:textColor="@android:color/background_light"
+            android:ems="10"/>
+        <EditText
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:hint="Password"
+            android:textColorHint="@android:color/background_light"
+            android:textColor="@android:color/background_light"/>
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FILL YOUR BELLY"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:background="#764b00"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/forgetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget your password?"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_light"/>
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cant get food yet? Create an account now"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_light"/>
+    </LinearLayout>
+
+</RelativeLayout>
