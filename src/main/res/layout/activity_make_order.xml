@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.casper.userregistration.MakeOrderActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="60dp"
+        android:orientation="horizontal"
+        android:background="@android:color/background_dark">
+        <Button
+            android:id="@+id/foodbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"/>
+        <Button
+            android:id="@+id/drinkbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drinks"/>
+        <Button
+            android:id="@+id/waterbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/menuCustomerlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/background_dark"
+        android:dividerHeight="5dp" />
+</LinearLayout>

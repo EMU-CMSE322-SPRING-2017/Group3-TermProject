@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.casper.userregistration.ViewOrdersFragment">
+
+    <TextView
+        android:id="@+id/nameCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer name"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/addrCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/phoneCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="phone"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/foodCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="food"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/priceCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="price"
+        android:textSize="20sp"/>
+</LinearLayout>

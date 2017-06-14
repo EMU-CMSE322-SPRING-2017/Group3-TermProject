@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.casper.userregistration.UserProfileActivity">
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/user_loginname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is my name"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/user_loginaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is the address"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/showCustomerPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Customer Page"/>
+</LinearLayout>
